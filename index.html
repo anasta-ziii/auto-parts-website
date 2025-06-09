@@ -1,376 +1,63 @@
-
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>АвтоЗапчасти Премиум</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Поехали!</title>
+    <meta name="description" content="Poehali.dev — запусти свой сайт за минуту!"/>
+    <meta name="author" content="poehali.dev"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta property="og:title" content="Поехали!">
+    <meta property="og:description" content="Ваш личный программист, который делает сайты в 30 раз быстрее обычного.">
+    <meta property="og:image:width" content="4800">
+    <meta property="og:image:height" content="2520">
+    <meta property="og:image:alt" content="Поехали! — сервис разработки сайтов с помощью ИИ">
+    <meta property="og:image" content="https://cdn.poehali.dev/intertnal/img/og.png">
+    <meta name="twitter:image" content="https://cdn.poehali.dev/intertnal/img/og.png">
+
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS COMMENT! -->
+
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS COMMENT! -->
+    <script src="https://cdn.poehali.dev/intertnal/js/pp-min-2.js"></script>
+    <script src="https://cdn.poehali.dev/intertnal/js/route-min.js"></script>
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS COMMENT! -->
+
     <meta name="pp-name" value="auto-parts-website">
-      <script src="https://cdn.poehali.dev/intertnal/js/pp-min-2.js"></script>
-      <script src="https://cdn.poehali.dev/intertnal/js/route-min.js"></script>
       <script src="https://cdn.poehali.dev/intertnal/js/inspector-min.js"></script>
   </head>
+
 <body>
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">АвтоЗапчасти Премиум</h1>
-                <p class="hero-description">
-                    Качественные запчасти для вашего автомобиля. Более 50 000
-                    наименований в наличии. Доставка по всей России.
-                </p>
-                <div class="hero-buttons">
-                    <button class="btn btn-primary btn-lg">
-                        🔍 Найти запчасть
-                    </button>
-                    <button class="btn btn-outline btn-lg">
-                        📞 Связаться с нами
-                    </button>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <div class="stat-number">50 000+</div>
-                        <div class="stat-label">Запчастей в наличии</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number">15+</div>
-                        <div class="stat-label">Лет на рынке</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number">24/7</div>
-                        <div class="stat-label">Поддержка клиентов</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
 
-    <!-- Search Section -->
-    <section class="search-section">
-        <div class="container">
-            <div class="search-content">
-                <h2 class="section-title">Поиск запчастей</h2>
-                
-                <div class="search-card">
-                    <div class="search-form">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label class="form-label">Марка автомобиля</label>
-                                <input type="text" class="form-input" placeholder="Например: Toyota">
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label">Модель</label>
-                                <input type="text" class="form-input" placeholder="Например: Camry">
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label">Год выпуска</label>
-                                <input type="text" class="form-input" placeholder="Например: 2018">
-                            </div>
-                        </div>
-                        
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label class="form-label">Категория запчасти</label>
-                                <input type="text" class="form-input" placeholder="Например: Тормозная система">
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label">Артикул (если известен)</label>
-                                <input type="text" class="form-input" placeholder="Например: 04465-33250">
-                            </div>
-                        </div>
-                        
-                        <button class="btn btn-primary btn-full">
-                            🔍 Найти запчасти
-                        </button>
-                    </div>
-                    
-                    <div class="search-help">
-                        <p>Не можете найти нужную запчасть? Наши специалисты помогут!</p>
-                        <button class="btn btn-outline">
-                            💬 Получить консультацию
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+            if (document.scripts[j].src === r) {
+                return;
+            }
+        }
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-    <!-- Categories Section -->
-    <section class="categories-section">
-        <div class="container">
-            <h2 class="section-title">Категории запчастей</h2>
-            
-            <div class="categories-grid">
-                <div class="category-card">
-                    <div class="category-icon">⚡</div>
-                    <h3 class="category-title">Двигатель</h3>
-                    <p class="category-description">Поршни, кольца, прокладки</p>
-                    <div class="category-count">8 500+ товаров</div>
-                </div>
-                
-                <div class="category-card">
-                    <div class="category-icon">🛑</div>
-                    <h3 class="category-title">Тормозная система</h3>
-                    <p class="category-description">Колодки, диски, суппорты</p>
-                    <div class="category-count">6 200+ товаров</div>
-                </div>
-                
-                <div class="category-card">
-                    <div class="category-icon">⚙️</div>
-                    <h3 class="category-title">Подвеска</h3>
-                    <p class="category-description">Амортизаторы, пружины, стойки</p>
-                    <div class="category-count">7 800+ товаров</div>
-                </div>
-                
-                <div class="category-card">
-                    <div class="category-icon">🔧</div>
-                    <h3 class="category-title">Фильтры</h3>
-                    <p class="category-description">Масляные, воздушные, топливные</p>
-                    <div class="category-count">4 300+ товаров</div>
-                </div>
-                
-                <div class="category-card">
-                    <div class="category-icon">🔋</div>
-                    <h3 class="category-title">Электрика</h3>
-                    <p class="category-description">Генераторы, стартеры, свечи</p>
-                    <div class="category-count">5 100+ товаров</div>
-                </div>
-                
-                <div class="category-card">
-                    <div class="category-icon">🚗</div>
-                    <h3 class="category-title">Кузовные детали</h3>
-                    <p class="category-description">Бамперы, фары, зеркала</p>
-                    <div class="category-count">9 200+ товаров</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Featured Products -->
-    <section class="products-section">
-        <div class="container">
-            <h2 class="section-title">Популярные товары</h2>
-            
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=300&h=200&fit=crop" alt="Тормозные колодки BREMBO">
-                        <div class="product-badge">Хит продаж</div>
-                    </div>
-                    <div class="product-content">
-                        <h3 class="product-title">Тормозные колодки BREMBO</h3>
-                        <p class="product-description">Передние тормозные колодки для BMW 3 серии</p>
-                        <div class="product-rating">
-                            <span class="star">⭐</span>
-                            <span>4.8</span>
-                        </div>
-                        <div class="product-price">
-                            <span class="price">4 950 ₽</span>
-                            <span class="old-price">5 500 ₽</span>
-                        </div>
-                        <button class="btn btn-primary btn-full">
-                            🛒 В корзину
-                        </button>
-                    </div>
-                </div>
-                
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1486401899868-0e435c2d1e46?w=300&h=200&fit=crop" alt="Масляный фильтр MANN">
-                    </div>
-                    <div class="product-content">
-                        <h3 class="product-title">Масляный фильтр MANN</h3>
-                        <p class="product-description">Оригинальный фильтр для Volkswagen/Audi</p>
-                        <div class="product-rating">
-                            <span class="star">⭐</span>
-                            <span>4.9</span>
-                        </div>
-                        <div class="product-price">
-                            <span class="price">890 ₽</span>
-                        </div>
-                        <button class="btn btn-primary btn-full">
-                            🛒 В корзину
-                        </button>
-                    </div>
-                </div>
-                
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=300&h=200&fit=crop" alt="Амортизатор BILSTEIN">
-                        <div class="product-badge">Хит продаж</div>
-                        <div class="product-overlay">Нет в наличии</div>
-                    </div>
-                    <div class="product-content">
-                        <h3 class="product-title">Амортизатор BILSTEIN</h3>
-                        <p class="product-description">Передний амортизатор Mercedes-Benz</p>
-                        <div class="product-rating">
-                            <span class="star">⭐</span>
-                            <span>4.7</span>
-                        </div>
-                        <div class="product-price">
-                            <span class="price">12 300 ₽</span>
-                            <span class="old-price">13 800 ₽</span>
-                        </div>
-                        <button class="btn btn-primary btn-full" disabled>
-                            Уведомить о поступлении
-                        </button>
-                    </div>
-                </div>
-                
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?w=300&h=200&fit=crop" alt="Комплект ГРМ GATES">
-                    </div>
-                    <div class="product-content">
-                        <h3 class="product-title">Комплект ГРМ GATES</h3>
-                        <p class="product-description">Ремень + ролики для Toyota/Lexus</p>
-                        <div class="product-rating">
-                            <span class="star">⭐</span>
-                            <span>4.6</span>
-                        </div>
-                        <div class="product-price">
-                            <span class="price">8 750 ₽</span>
-                        </div>
-                        <button class="btn btn-primary btn-full">
-                            🛒 В корзину
-                        </button>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="products-footer">
-                <button class="btn btn-outline btn-lg">
-                    Посмотреть все товары →
-                </button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="services-section">
-        <div class="container">
-            <h2 class="section-title">Наши преимущества</h2>
-            
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">🚚</div>
-                    <h3 class="service-title">Быстрая доставка</h3>
-                    <p class="service-description">Доставка по Москве в день заказа, по России 1-3 дня</p>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">🛡️</div>
-                    <h3 class="service-title">Гарантия качества</h3>
-                    <p class="service-description">Только оригинальные запчасти с гарантией производителя</p>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">🔍</div>
-                    <h3 class="service-title">Подбор запчастей</h3>
-                    <p class="service-description">Поможем подобрать нужные детали по VIN-коду</p>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">🎧</div>
-                    <h3 class="service-title">Техническая поддержка</h3>
-                    <p class="service-description">Консультации специалистов 24/7</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact-section">
-        <div class="container">
-            <h2 class="section-title">Контакты и местоположение</h2>
-            
-            <div class="contact-grid">
-                <div class="contact-card">
-                    <h3 class="contact-card-title">📍 Наши офисы</h3>
-                    
-                    <div class="office">
-                        <h4 class="office-title">Главный офис и склад</h4>
-                        <p class="office-address">г. Москва, ул. Автомобильная, д. 15</p>
-                        <p class="office-hours">Пн-Пт: 9:00-19:00, Сб: 10:00-16:00</p>
-                        <div class="office-contacts">
-                            <button class="btn btn-outline btn-sm">📞 +7 (495) 123-45-67</button>
-                            <button class="btn btn-outline btn-sm">✉️ info@autoparts.ru</button>
-                        </div>
-                    </div>
-                    
-                    <div class="office">
-                        <h4 class="office-title">Точка выдачи СПб</h4>
-                        <p class="office-address">г. Санкт-Петербург, пр. Невский, д. 85</p>
-                        <p class="office-hours">Пн-Сб: 10:00-18:00</p>
-                        <button class="btn btn-outline btn-sm">📞 +7 (812) 987-65-43</button>
-                    </div>
-                    
-                    <div class="office-features">
-                        <h4>Как нас найти</h4>
-                        <div class="feature">
-                            <span class="feature-icon">🚗</span>
-                            <span>Парковка для клиентов</span>
-                        </div>
-                        <div class="feature">
-                            <span class="feature-icon">📍</span>
-                            <span>5 минут от м. Автозаводская</span>
-                        </div>
-                        <div class="feature">
-                            <span class="feature-icon">⏱️</span>
-                            <span>Быстрое обслуживание</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="contact-card">
-                    <h3 class="contact-card-title">💬 Связаться с нами</h3>
-                    
-                    <div class="contact-buttons">
-                        <button class="btn btn-whatsapp">💬 WhatsApp</button>
-                        <button class="btn btn-telegram">✈️ Telegram</button>
-                    </div>
-                    
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <span class="contact-icon">⏰</span>
-                            <div>
-                                <div class="contact-title">Горячая линия 24/7</div>
-                                <div class="contact-details">8-800-555-12-34 (бесплатно)</div>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <span class="contact-icon">✉️</span>
-                            <div>
-                                <div class="contact-title">Email поддержка</div>
-                                <div class="contact-details">support@autoparts.ru</div>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <span class="contact-icon">💳</span>
-                            <div>
-                                <div class="contact-title">Способы оплаты</div>
-                                <div class="contact-details">Наличные, карты, банковский перевод</div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="consultation-card">
-                        <h4>Нужна консультация?</h4>
-                        <p>Наши специалисты помогут подобрать запчасти для вашего автомобиля</p>
-                        <button class="btn btn-primary btn-full">📞 Заказать звонок</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <script src="script.js"></script>
+    ym(101026698, "init", {
+        trustedDomains: ["poehali.dev"],
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+        trackHash: true
+    });
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/101026698" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
 </body>
 </html>
